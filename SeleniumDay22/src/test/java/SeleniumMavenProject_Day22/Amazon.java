@@ -19,7 +19,6 @@ public class Amazon {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-    
         wait.until(ExpectedConditions.elementToBeClickable(By.id("nav-link-accountList"))).click();
 
         
