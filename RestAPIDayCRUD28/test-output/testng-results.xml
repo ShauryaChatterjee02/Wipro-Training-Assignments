@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-25T17:51:40 IST" name="Default suite" finished-at="2026-05-25T17:51:52 IST" duration-ms="11976">
+    <groups>
+    </groups>
+    <test started-at="2026-05-25T17:51:40 IST" name="Default test" finished-at="2026-05-25T17:51:52 IST" duration-ms="11976">
+      <class name="RestAPITesting.CRUDOperationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:40 IST" name="setup" finished-at="2026-05-25T17:51:40 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:41 IST" name="createUser" data-provider="userdata" finished-at="2026-05-25T17:51:43 IST" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:43 IST" name="createUser" data-provider="userdata" finished-at="2026-05-25T17:51:43 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Das]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:43 IST" name="createUser" data-provider="userdata" finished-at="2026-05-25T17:51:44 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:44 IST" name="createUser" data-provider="userdata" finished-at="2026-05-25T17:51:44 IST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ishaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mukherjee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:44 IST" name="createUser" data-provider="userdata" finished-at="2026-05-25T17:51:45 IST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:45 IST" name="getUser" data-provider="userdata" finished-at="2026-05-25T17:51:45 IST" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:45 IST" name="getUser" data-provider="userdata" finished-at="2026-05-25T17:51:49 IST" duration-ms="3569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Das]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:49 IST" name="getUser" data-provider="userdata" finished-at="2026-05-25T17:51:50 IST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Roy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:50 IST" name="getUser" data-provider="userdata" finished-at="2026-05-25T17:51:50 IST" duration-ms="404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ishaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mukherjee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="getUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:50 IST" name="getUser" data-provider="userdata" finished-at="2026-05-25T17:51:51 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser()[pri:3, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:51 IST" name="updateUser" finished-at="2026-05-25T17:51:51 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:51 IST" name="deleteUser" finished-at="2026-05-25T17:51:52 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RestAPITesting.CRUDOperationTest@206a70ef]" started-at="2026-05-25T17:51:52 IST" name="tearDown" finished-at="2026-05-25T17:51:52 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RestAPITesting.CRUDOperationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
