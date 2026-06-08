@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven'
+        jdk 'JDK_26'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/ShauryaChatterjee02/Sample-Milestone-Wipro-Repo.git'
+            }
+        }
+
+        stage('Clean') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                bat 'mvn compile'
+            }
+        }
+
+        stage('Execute Tests') {
+            steps {
+                bat 'mvn test'
+            }
+        }
+    }
+
+    post {
+        always {
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'test-output',
+                reportFiles: 'emailable-report.html',
+                reportName: 'TestNG Report'
+            ])
+
+            archiveArtifacts artifacts: 'test-output/**/*', allowEmptyArchive: true
+        }
+
+        success {
+            echo 'Build Successful'
+        }
+
+        failure {
+            echo 'Build Failed'
+        }
+    }
+}
